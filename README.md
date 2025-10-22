@@ -1,7 +1,7 @@
 
 # NeoRetro Sims — Project Report
 
-Project title: NeoRetro Sims (University web assignment)
+Project title: NeoRetro Sims (CUB web assignment)
 Author: Yeazbeer Ahmed
 Date: 22.10.2025
 
@@ -24,7 +24,7 @@ NeoRetro Sims is a demo online shop showcasing retro pixel-themed collectibles: 
 - Phone: 01963897408
 - Phone: 01639482926
 - Email: yeazbeer@gmail.com
-
+- Email: my.office.workstation.69@gmail.com
 ## 5. How to run (local)
 1. Make sure all files are saved in a single folder (NeoRetroSims_Full/).
 2. Place images in the images/ subfolder (they are included).
