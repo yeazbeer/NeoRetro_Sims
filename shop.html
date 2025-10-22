@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NeoRetro Sims — Shop</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><img src="logo.svg" alt="NeoRetro Sims logo" /></div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container shop-page">
+    <h1>Shop</h1>
+    <div class="shop-controls">
+      <label>
+        Search:
+        <input id="search" type="search" placeholder="Find pixel keychains, figures..." />
+      </label>
+      <label>
+        Sort:
+        <select id="sort">
+          <option value="default">Recommended</option>
+          <option value="price-asc">Price: low → high</option>
+          <option value="price-desc">Price: high → low</option>
+        </select>
+      </label>
+    </div>
+
+    <div id="products-grid" class="grid">
+      <article class="card" data-price="19.99" data-category="pixel-collectibles">
+        <img src="images/fig1.png" alt="Pixel Keychain" />
+        <h3>Action Figure — Dark Rider</h3>
+        <p class="price">৳2444.38</p>
+        <button class="view-btn" data-title="Action Figure — Dark Rider" data-img="images/fig1.png" data-price="৳2444.38">View</button>
+      </article>
+
+      <article class="card" data-price="49.99" data-category="gaming-retro">
+        <img src="images/fig2.png" alt="Retro Console" />
+        <h3>Anime Figure — Violet</h3>
+        <p class="price">৳6112.77</p>
+        <button class="view-btn" data-title="Anime Figure — Violet  " data-img="images/fig2.png" data-price="৳6112.77">View</button>
+      </article>
+
+      <article class="card" data-price="29.99" data-category="action-figures">
+        <img src="images/fig3.png" alt="Action Figure" />
+        <h3>Action Figure — Knight</h3>
+        <p class="price">৳3667.98</p>
+        <button class="view-btn" data-title="Action Figure — Knight" data-img="images/fig3.png" data-price="৳3667.98">View</button>
+      </article>
+
+      <!-- New Anime Figures -->
+      <article class="card" data-price="34.99" data-category="anime-figures">
+        <img src="images/Sabito-PVC-Figures.avif" alt="Sabito PVC Figure" />
+        <h3>Sabito PVC Figure</h3>
+        <p class="price">৳4278.58</p>
+        <button class="view-btn" data-title="Sabito PVC Figure" data-img="images/Sabito-PVC-Figures.avif" data-price="৳4278.58">View</button>
+      </article>
+
+      <article class="card" data-price="29.99" data-category="anime-figures">
+        <img src="images/DSAF19.jpg" alt="DSAF19 Anime Figure" />
+        <h3>Anime Figure — DSAF19</h3>
+        <p class="price">৳3667.98</p>
+        <button class="view-btn" data-title="Anime Figure — DSAF19" data-img="images/DSAF19.jpg" data-price="৳3667.98">View</button>
+      </article>
+
+      <article class="card" data-price="39.99" data-category="anime-figures">
+        <img src="images/DSC08969_500x500.jpg" alt="DSC08969 Anime Figure" />
+        <h3>Anime Figure — DSC08969</h3>
+        <p class="price">৳4890.77</p>
+        <button class="view-btn" data-title="Anime Figure — DSC08969" data-img="images/DSC08969_500x500.jpg" data-price="৳4890.77">View</button>
+      </article>
+      
+      <article class="card" data-price="32.99" data-category="anime-figures">
+        <img src="images/pic.jpg" alt="Anime Figure - Pic" />
+        <h3>Anime Figure — Pic</h3>
+        <p class="price">৳4032.01</p>
+        <button class="view-btn" data-title="Anime Figure - Pic" data-img="images/pic.jpg" data-price="৳4032.01">View</button>
+      </article>
+
+      <!-- New Game Figures -->
+      <article class="card" data-price="54.99" data-category="gaming-retro">
+        <img src="images/Elden-Ring-Melina.jpg" alt="Elden Ring Melina Figure" />
+        <h3>Elden Ring Melina Figure</h3>
+        <p class="price">৳6724.87</p>
+        <button class="view-btn" data-title="Elden Ring Melina Figure" data-img="images/Elden-Ring-Melina.jpg" data-price="৳6724.87">View</button>
+      </article>
+
+      <article class="card" data-price="49.99" data-category="gaming-retro">
+        <img src="images/Mass-Effect-Garrus.jpg" alt="Mass Effect Garrus Statue" />
+        <h3>Mass Effect Garrus Statue</h3>
+        <p class="price">৳6112.77</p>
+        <button class="view-btn" data-title="Mass Effect Garrus Statue" data-img="images/Mass-Effect-Garrus.jpg" data-price="৳6112.77">View</button>
+      </article>
+
+      <article class="card" data-price="35.99" data-category="gaming-retro">
+        <img src="images/game_figure1.jpg" alt="Game Figure 1" />
+        <h3>Game Figure 1</h3>
+        <p class="price">৳4401.36</p>
+        <button class="view-btn" data-title="Game Figure 1" data-img="images/game_figure1.jpg" data-price="৳4401.36">View</button>
+      </article>
+
+      <article class="card" data-price="42.99" data-category="gaming-retro">
+        <img src="images/game_figure2.jpg" alt="Game Figure 2" />
+        <h3>Game Figure 2</h3>
+        <p class="price">৳5257.61</p>
+        <button class="view-btn" data-title="Game Figure 2" data-img="images/game_figure2.jpg" data-price="৳5257.61">View</button>
+      </article>
+
+      <article class="card" data-price="38.99" data-category="gaming-retro">
+        <img src="images/game_figure3.jpg" alt="Game Figure 3" />
+        <h3>Game Figure 3</h3>
+        <p class="price">৳4768.49</p>
+        <button class="view-btn" data-title="Game Figure 3" data-img="images/game_figure3.jpg" data-price="৳4768.49">View</button>
+      </article>
+
+      <article class="card" data-price="45.99" data-category="gaming-retro">
+        <img src="images/game_figure4.jpg" alt="Game Figure 4" />
+        <h3>Game Figure 4</h3>
+        <p class="price">৳5623.65</p>
+        <button class="view-btn" data-title="Game Figure 4" data-img="images/game_figure4.jpg" data-price="৳5623.65">View</button>
+      </article>
+      
+      <article class="card" data-price="59.99" data-category="gaming-retro">
+        <img src="images/viper-figure.jpg" alt="Custom Viper Figure" />
+        <h3>Custom Viper Figure</h3>
+        <p class="price">৳7336.78</p>
+        <button class="view-btn" data-title="Custom Viper Figure" data-img="images/viper-figure.jpg" data-price="৳7336.78">View</button>
+      </article>
+
+      <!-- New Collectibles -->
+      <article class="card" data-price="24.99" data-category="pixel-collectibles">
+        <img src="images/collectible1.jpg" alt="Collectible 1" />
+        <h3>Collectible 1</h3>
+        <p class="price">৳3055.97</p>
+        <button class="view-btn" data-title="Collectible 1" data-img="images/collectible1.jpg" data-price="৳3055.97">View</button>
+      </article>
+
+      <article class="card" data-price="19.99" data-category="pixel-collectibles">
+        <img src="images/collectible2.jpg" alt="Collectible 2" />
+        <h3>Collectible 2</h3>
+        <p class="price">৳2444.38</p>
+        <button class="view-btn" data-title="Collectible 2" data-img="images/collectible2.jpg" data-price="৳2444.38">View</button>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year2"></span> NeoRetro Sims</p>
+    </div>
+  </footer>
+
+  <div id="product-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <img id="modal-img" src="" alt="" />
+      <div class="modal-meta">
+        <h3 id="modal-title"></h3>
+        <p id="modal-price" class="price"></p>
+        <p>Short description: High quality collectible — perfect for display.</p>
+        <button id="add-to-cart-2" class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

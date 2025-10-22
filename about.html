@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NeoRetro Sims — About</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo"><img src="logo.svg" alt="NeoRetro Sims logo" /></div>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html" class="active">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>About NeoRetro Sims</h1>
+    <p>NeoRetro Sims is a small virtual shop concept for retro pixel items: action figures, pixel keychains, 8-bit collectibles, posters, desk decor, and more. This project was created as a university web assignment to demonstrate HTML, CSS, and a bit of JavaScript with a classic 90s arcade aesthetic and a dark theme.</p>
+
+    <h2>Design goals</h2>
+    <ul>
+      <li>Classic 90s retro feel with dark/pixel aesthetic</li>
+      <li>Simple navigation and an easy-to-read product grid</li>
+      <li>Minimal JavaScript: modal product view, filters, and search</li>
+    </ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year3"></span> NeoRetro Sims</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year3').textContent = new Date().getFullYear();</script>
+</body>
+</html>

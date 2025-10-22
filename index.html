@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NeoRetro Sims — Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="logo.svg" alt="NeoRetro Sims logo" />
+      </div>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>NeoRetro Sims</h1>
+          <p class="tagline">WHERE PIXELS COME ALIVE</p>
+          <p class="lead">Retro collectibles, action figures, and pixel art — all with a 90s arcade soul.</p>
+          <a href="shop.html" class="btn">Shop Now</a>
+        </div>
+        <div class="hero-art">
+          <img src="images/fig1.png" alt="Featured collectible" />
+        </div>
+      </div>
+    </section>
+
+    <section class="featured container">
+      <h2>Featured Items</h2>
+      <div class="grid" id="featured-grid">
+        <article class="card" data-category="action-figures" data-price="29.99">
+          <img src="images/fig1.png" alt="Figure 1" />
+          <h3>Action Figure — Dark Rider</h3>
+          <p class="price">৳3667.98</p>
+          <button class="view-btn" data-title="Action Figure — Dark Rider" data-img="images/fig1.png" data-price="৳3667.98">View</button>
+        </article>
+
+        <article class="card" data-category="anime-figures" data-price="34.99">
+          <img src="images/fig2.png" alt="Figure 2" />
+          <h3>Anime Figure — Violet</h3>
+          <p class="price">৳4278.58</p>
+          <button class="view-btn" data-title="Anime Figure — Violet" data-img="images/fig2.png" data-price="৳4278.58">View</button>
+        </article>
+
+        <article class="card" data-category="chibi" data-price="19.99">
+          <img src="images/fig3.png" alt="Figure 3" />
+          <h3>Chibi Figure — Bunny Noir</h3>
+          <p class="price">৳2444.38</p>
+          <button class="view-btn" data-title="Chibi Figure — Bunny Noir" data-img="images/fig3.png" data-price="৳2444.38">View</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="categories container">
+      <h2>Shop by Category</h2>
+      <div class="cat-row">
+        <button class="cat-btn" data-filter="all">All</button>
+        <button class="cat-btn" data-filter="action-figures">Action Figures</button>
+        <button class="cat-btn" data-filter="action-figures">Action Figures</button>
+        <button class="cat-btn" data-filter="anime-figures">Anime Figures</button>
+        <button class="cat-btn" data-filter="pixel-collectibles">Pixel Collectibles</button>
+        <button class="cat-btn" data-filter="gaming-retro">Gaming & Retro</button>
+        <button class="cat-btn" data-filter="desk-decor">Desk & Decor</button>
+        <button class="cat-btn" data-filter="stationery">Stationery & Gifts</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> NeoRetro Sims — Where Pixels Come Alive</p>
+      <p class="small">This is a demo project for university — no real checkout implemented.</p>
+    </div>
+  </footer>
+
+  <!-- Modal for quick view -->
+  <div id="product-modal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button class="modal-close" aria-label="Close">✕</button>
+      <img id="modal-img" src="" alt="" />
+      <div class="modal-meta">
+        <h3 id="modal-title"></h3>
+        <p id="modal-price" class="price"></p>
+        <p>Short description: High quality collectible — perfect for display.</p>
+        <button id="add-to-cart" class="btn">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
